@@ -1,0 +1,43 @@
+{
+  "name": "duh",
+  "displayName": "Design ∪ Hardware",
+  "version": "0.1.0",
+  "description": "DuH support for VS Code",
+  "main": "main.js",
+  "browser": "main.js",
+  "publisher": "drom",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Visualization"
+  ],
+  "icon": "assets/logo.png",
+  "activationEvents": [],
+  "contributes": {
+  },
+  "files.associations": {
+    "*.duh.json5": "duh"
+  },
+  "scripts": {
+    "test": "eslint lib/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wavedrom/duh-vscode.git"
+  },
+  "author": "WaveDrom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wavedrom/duh-vscode/issues"
+  },
+  "homepage": "https://github.com/wavedrom/duh-vscode#readme",
+  "devDependencies": {
+    "@drom/eslint-config": "0.12.0",
+    "@vscode/test-web": "0.0.63",
+    "eslint": "8.57.1"
+  },
+  "eslintConfig": {
+    "extends": "@drom/eslint-config/eslint8/node12"
+  }
+}
